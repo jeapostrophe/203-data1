@@ -9,7 +9,7 @@ class Cdata1 {
     public static void checkEquals( String label, int x, int y ) throws TestException {
         boolean workedHuh = (x == y);
         if (workedHuh) {
-            System.out.println("SUCC (" + label + ") Grape job!");
+            System.out.println("SUCC (" + label + ") Graped job!");
         } else {
             throw new TestException("FAIL (" + label + ") " + x + " != " + y);
         }
